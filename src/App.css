@@ -1,0 +1,11 @@
+.top{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top>a>button{
+    padding: 10px;
+    width: 100px;
+    background: transparent;
+    text-align: center;
+    border: none;
+}

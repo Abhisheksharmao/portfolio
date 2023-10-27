@@ -1,0 +1,15 @@
+
+.con>a>img{
+margin: 20px;
+}
+.con>a>img:hover{
+    filter: drop-shadow(0px 0px 10px silver);
+}
+.cc{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.con{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
