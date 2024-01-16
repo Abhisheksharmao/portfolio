@@ -2,33 +2,49 @@ import React from 'react'
 import './main.css'
 export default function Main() {
 
-
     return (
         <>
-            <div className='photo'>
-                <img src="./img/photo.jpg" alt="" className='ph' />
-                <div className='social'>
-                    <a href="https://github.com/Abhisheksharmao"><img src="./img/icons8-github-96.png" alt="" style={{ width: "50px" }} /></a>
-                    <a href="https://www.instagram.com/abhishek.0199/?igshid=MWZjMTM2ODFkZg%3D%3D"><img src="./img/icons8-instagram-96.png" alt="" style={{ width: "50px" }} /></a>
-                    <a href="https://www.linkedin.com/in/abhishek098"><img src="./img/icons8-linkedin-96.png" alt="" style={{ width: "50px" }} /></a>
+            <div className='wrappertop'>
+                <div className='typewriter'>
+                    <h1>Hi my name is</h1>
+                    <div className='typing-demo'>
+                        <h1 >Abhishek Sharma</h1>
+                    </div>
+                    <h2 style={{marginTop:"40px"}}>Front-end Developer</h2>
                 </div>
+                <div className='photo'>
+                    <img src="./img/photo.jpg" alt="" className='ph' />
+                    <div className='social'>
+                        <a href="https://github.com/Abhisheksharmao"><img src="./img/icons8-github-96.png" alt="" style={{ width: "50px" }} /></a>
+                        <a href="https://www.instagram.com/abhishek.0199/?igshid=MWZjMTM2ODFkZg%3D%3D"><img src="./img/icons8-instagram-96.png" alt="" style={{ width: "50px" }} /></a>
+                        <a href="https://www.linkedin.com/in/abhishek098"><img src="./img/icons8-linkedin-96.png" alt="" style={{ width: "50px" }} /></a>
+                    </div>
+                </div>
+            </div>
+            <div className='aboutme'>
+                <h1>About Me</h1>
+                <h3>I am passionate front-end developer with strong skill set in design and problem solving . Proficient in HTML,CSS,Javascript,React.js,Redux Toolkit. I excel in writing clean code and optimizing performance . I am dept at collaboration in team environments . I am enthusiastic about leveraging frameworks like React.js to build dynamic web application . As a motivated professional , I bring combination of creativity and technical expertise to deliver exceptional front-end solutions.</h3>
             </div>
             <div className="con">
                 <div className="card">
                     <img src="./img/calculator.png" className="cardey" alt="..." />
-                    <p className="card-text">Calculator <br /> Basic calculator formed using Java script to perform basic operations like add , multiply , devide , subtract etc <br /> Library - ReactJS</p>
+                    <p className="card-text">Calculator <br /> Basic calculator formed using Java script to perform basic operations like add , multiply , devide , subtract etc <br /> Framework used - ReactJS</p>
+                    <a href="https://github.com/Abhisheksharmao/calculator">Link to repo</a>
                 </div>
                 <div className="card">
                     <img src="./img/amazon_logo._CB633266945_.png" className="cardey" alt="..." />
                     <p className="card-text">Amazon clone <br /> It is an amazon clone which consist og basic feature like to view product available and more..</p>
+                    <a href="https://github.com/Abhisheksharmao/Amazon">Link to repo</a>
                 </div>
                 <div className="card">
                     <img src="./img/tick.png" alt="" className="cardey" />
                     <p className="card-text">Tick tack toe Game <br /> This game is made for fun using javascript where we can play and proceed towards a winner of the game.</p>
+                    <a href="https://github.com/Abhisheksharmao/Tick-tack-toe">Link to repo</a>
                 </div>
                 <div className="card">
-                    <img src="./img/cycle.png" className="cardey" alt="..." />
-                    <p className="card-text">Cycle store <br /> This website brings the new concept of making the customer able to purchase the desired bicycle of its choice. <br /> Library used - ReactJs</p>
+                    <img src="./img/Screenshot (147).png" className="cardey" alt="..." />
+                    <p className="card-text">Blogging Website <br /> This website brings the features of creating and reading the blog created by the user<br /> Framework used - ReactJs</p>
+                    <a href="https://github.com/Abhisheksharmao/Digimar">Link to repo</a>
                 </div>
             </div>
 
@@ -42,28 +58,31 @@ export default function Main() {
                         <p className='m' style={{ border: "2px solid silver", borderRadius: "10px " }}>Javascript</p>
                         <p className='m' style={{ border: "2px solid silver", borderRadius: "10px " }}>Reactjs</p>
                         <p className='m' style={{ border: "2px solid silver", borderRadius: "10px " }}>Bootstrap</p>
+                        <p className='m' style={{ border: "2px solid silver", borderRadius: "10px " }}>NextJS</p>
+                        <p className='m' style={{ border: "2px solid silver", borderRadius: "10px " }}>Redux</p>
                     </div>
                 </div>
 
 
                 <div className="exp">
                     <h1>Experience</h1>
-                    <div>
-                        <h1>* Prodigy Infotech - current</h1>
+                    <div className='exp1'>
+                        <h1>* Vritech Software IT service</h1>
                         <p>position - Web Developer</p>
                         <p>Responsibility</p>
                         <ul>
-                            <li>write clean and managable codes for developing the websites</li>
-                            <li>Working on Task assigned.</li>
+                            <li>Developed and Maintained user-facing website using html , css , javascript , ReactJS.</li>
+                            <li>Implemented responsive design principles to ensure cross platform compatibility of webpage.</li>
                         </ul>
                     </div>
-                    <div>
-                        <h1>* Azure</h1>
+                    <div className='exp2'>
+                        <h1>* Prodigy Infotech</h1>
                         <p>position - Front End Developer</p>
                         <ul>
                             <p>Responsibility</p>
-                            <li>Maintaning the frameworks</li>
-                            <li>Collaboration with other</li>
+                            <li>Using markup languages like HTML to create user-friendly web pages.</li>
+                            <li>Maintaining and improving website
+                                Optimizing applications for maximum speed.</li>
                         </ul>
                     </div>
                 </div>

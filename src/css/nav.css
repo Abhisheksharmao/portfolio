@@ -1,0 +1,35 @@
+.top {
+    display: flex;
+    justify-content: end;
+}
+.top a{
+    color: white;
+    padding-top: 10px;
+}
+.top button {
+    width: 120px;
+    padding: 7px;
+    border-radius: 10px;
+    background: lightcyan;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.top button:hover {
+    background: white;
+}
+
+@media (max-width:600px) {
+    .top button {
+        background: none;
+        color: white;
+    }
+    .top button:hover {
+        background: none;
+    }
+}

@@ -36,6 +36,8 @@
 
 .boom {
     display: inline-flex;
+    width: 300px;
+    flex-wrap: wrap;
 }
 
 .m {
@@ -48,6 +50,13 @@
     justify-content: space-between;
     cursor: pointer;
     margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ed {
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 .side_projects :hover {
@@ -59,19 +68,72 @@
     flex-direction: column;
 }
 
+.social a img {
+    height: 50px;
+    margin-top: 7px;
+    width: 50px;
+}
+
 .photo ul li {
     list-style: none;
     margin-left: 50px;
 }
 
 .photo img {
-    width: 350px;
+    height: 500px;
+    margin-top: 50px;
+}
+.card a{
+    color: white;
+}
+
+.wrappertop {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .photo {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    margin-right: 100px;
+}
+
+
+.typewriter {
+    margin-top: 5%;
+    margin-left: 20px;
+}
+
+.typewriter h1 {
+    font-size: 40px;
+}
+
+.aboutme {
+    margin-top: 150px;
+}
+
+.typing-demo {
+    width: 25ch;
+    animation: typing 6s steps(25) infinite, blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
 }
 
 @media (max-width:900px) {
@@ -85,12 +147,36 @@
         flex-wrap: wrap;
     }
 
+    .aboutme {
+        margin-top: 50px;
+    }
+
+    .wrappertop {
+        flex-direction: column;
+    }
+
+    .photo img {
+        height: 200px;
+        width: 200px;
+    }
+
     .cont {
         margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .social a img {
+
+        width: 10px;
     }
 
     .ed h2 {
         font-size: 12px;
+    }
+
+    .typewriter h1 {
+        font-size: 20px;
     }
 
     h1 {
@@ -112,6 +198,15 @@
 
     .exp {
         margin-top: 20px;
+    }
+
+    .exp2 {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .exp1{
+        margin: 5px;
+        margin-left: 10px;
     }
 
     .card {
@@ -149,7 +244,7 @@
 
 @media (max-width:450px) {
     .card {
-        width: 160px;
+        width: 150px;
         height: 200px;
     }
 
@@ -160,5 +255,9 @@
 
     .card_text {
         font-size: 10px;
+    }
+
+    .con {
+        flex-wrap: wrap;
     }
 }
