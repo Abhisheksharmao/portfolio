@@ -10,7 +10,7 @@ export default function Main() {
                     <div className='typing-demo'>
                         <h1 >Abhishek Sharma</h1>
                     </div>
-                    <h2 style={{marginTop:"40px"}}>Front-end Developer</h2>
+                    <h2 style={{ marginTop: "40px" }}>Front-end Developer</h2>
                 </div>
                 <div className='photo'>
                     <img src="./img/photo.jpg" alt="" className='ph' />
@@ -27,19 +27,19 @@ export default function Main() {
             </div>
             <div className="con">
                 <div className="card">
-                    <img src="./img/calculator.png" className="cardey" alt="..." />
-                    <p className="card-text">Calculator <br /> Basic calculator formed using Java script to perform basic operations like add , multiply , devide , subtract etc <br /> Framework used - ReactJS</p>
-                    <a href="https://github.com/Abhisheksharmao/calculator">Link to repo</a>
+                    <img src="./img/canva-purple-minimalist-modern-music-instagram-post-Uh4QQbhRJgs.jpg" className="cardey" alt="..." />
+                    <p className="card-text">Music Player <br /> A music player with variety of features build for the music lover to listen to songs. <br /> Framework used - ReactJS</p>
+                    <a href="https://github.com/Abhisheksharmao/Music-Player">Link to repo</a>
                 </div>
                 <div className="card">
-                    <img src="./img/amazon_logo._CB633266945_.png" className="cardey" alt="..." />
-                    <p className="card-text">Amazon clone <br /> It is an amazon clone which consist og basic feature like to view product available and more..</p>
-                    <a href="https://github.com/Abhisheksharmao/Amazon">Link to repo</a>
-                </div>
-                <div className="card">
-                    <img src="./img/tick.png" alt="" className="cardey" />
-                    <p className="card-text">Tick tack toe Game <br /> This game is made for fun using javascript where we can play and proceed towards a winner of the game.</p>
+                    <img src="./img/tick.png" className="cardey" alt="..." />
+                    <p className="card-text">Tick Tack toe <br /> It's an amazing game made for the fun purpose and to bring the paper game into the electronic form.</p>
                     <a href="https://github.com/Abhisheksharmao/Tick-tack-toe">Link to repo</a>
+                </div>
+                <div className="card">
+                    <img src="./img/download.jpg" alt="" className="cardey" />
+                    <p className="card-text">Omi Chat <br /> Real-time Messaging: Implemented WebSocket technology to enable instant message delivery, ensuring users can engage in real-time conversations.</p>
+                    <a href="https://github.com/Abhisheksharmao/Omichat">Link to repo</a>
                 </div>
                 <div className="card">
                     <img src="./img/Screenshot (147).png" className="cardey" alt="..." />
