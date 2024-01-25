@@ -1,16 +1,21 @@
 import React from 'react'
 import './main.css'
+import './css/nav.css'
 export default function Main() {
 
     return (
         <>
             <div className='wrappertop'>
                 <div className='typewriter'>
-                    <h1>Hi my name is</h1>
+                    <h1>Hi There I'm</h1>
                     <div className='typing-demo'>
                         <h1 >Abhishek Sharma</h1>
                     </div>
                     <h2 style={{ marginTop: "40px" }}>Front-end Developer</h2>
+                    <div className="top">
+                        <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=abhisheksh0012@gmail.com&tf=1">abhisheksh0012@gmail.com</a>
+                        <a href="./Abhishek-resume.pdf" download="Abhishek-resume"><button>Resume</button></a>
+                    </div>
                 </div>
                 <div className='photo'>
                     <img src="./img/photo.jpg" alt="" className='ph' />
@@ -59,7 +64,7 @@ export default function Main() {
                         <p className='m' style={{ border: "2px solid silver", borderRadius: "10px " }}>Reactjs</p>
                         <p className='m' style={{ border: "2px solid silver", borderRadius: "10px " }}>Bootstrap</p>
                         <p className='m' style={{ border: "2px solid silver", borderRadius: "10px " }}>NextJS</p>
-                        <p className='m' style={{ border: "2px solid silver", borderRadius: "10px " }}>Redux</p>
+                        <p className='m' style={{ border: "2px solid silver", borderRadius: "10px " }}>Redux Toolkit</p>
                     </div>
                 </div>
 
